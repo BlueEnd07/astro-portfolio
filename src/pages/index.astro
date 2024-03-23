@@ -3,6 +3,7 @@ import Nevbar from "../Components/Nevbar.astro";
 import Hero from "../Components/Hero.astro";
 import Skills from "../Components/Skills.astro";
 import PorjectHero from "../Components/ProjectHero.astro";
+import Contacts from "../Components/Contacts.astro";
 ---
 
 <html lang="en">
@@ -22,34 +23,6 @@ import PorjectHero from "../Components/ProjectHero.astro";
     <!-- my projects -->
     <PorjectHero />
 
-    <div id="Contact-me" class="flex flex-col justify-between p-0 list-none items-center w-full min-w-0 text-center gap-1 mt-20">
-  <h1 class="text-5xl text-gray-800 font-mono font-bold">Contact/social</h1>
-  <h2 class="text-3xl text-gray-800 font-mono mb-3">Don't be shy! Hit me up! 👇</h2>
-
-  <div class="text-center font-mono text-xl text-gray-800">
-    <ul class="list-none grid gap-4"> 
-      <li class="flex flex-col items-center justify-center">
-        <img src="https://skillicons.dev/icons?i=github" alt="githubicon">
-        <span><a href="https://github.com/BlueEnd07">Github => BlueEnd07</a></span>
-      </li>
-      <li class="flex flex-col items-center justify-center"> 
-        <img src="https://skillicons.dev/icons?i=gmail" alt="mailicon">
-        <span>Mail => Lokeshrawatrawat123@gmail.com</span>
-      </li>
-      <li class="flex flex-col items-center justify-center"> 
-        <img src="https://skillicons.dev/icons?i=linkedin" alt="linkedinicon" >
-        <span><a href="https://www.linkedin.com/in/lokesh-rawat-6229611bb/">LinkedIn => Lokesh Rawat</a></span>
-      </li>
-      <li class="flex flex-col items-center justify-center"> 
-        <img src="https://skillicons.dev/icons?i=instagram" alt="instagramicon">
-        <span><a href="https://www.instagram.com/thisislokesh/">Instagram => Lokesh Rawat</a><br>(I don't know why I am sharing this, I don't even post anything)</span>
-      </li>
-      <li class="flex flex-col items-center justify-center"> 
-        <img src="https://skillicons.dev/icons?i=twitter" alt="twittericon">
-        <span><a href="https://twitter.com/meLokeshRawat">Twitter => Lokesh Rawat</a></span>
-      </li>
-    </ul>
-  </div>
-</div>
-  </body>
+    <Contacts />
+      </body>
 </html>

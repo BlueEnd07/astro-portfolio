@@ -4,6 +4,7 @@ import Hero from "../Components/Hero.astro";
 import Skills from "../Components/Skills.astro";
 import PorjectHero from "../Components/ProjectHero.astro";
 import Contacts from "../Components/Contacts.astro";
+import ResumeButton from "../Components/Resumebutton.astro";
 ---
 
 <html lang="en">
@@ -19,18 +20,23 @@ import Contacts from "../Components/Contacts.astro";
     <!-- Hero portion  -->
     <Hero />
     <!-- download my resume  -->
-    <div class="items-center flex justify-center my-20">
-      <button class="bg-green-600 p-5 border-2 border-gray-900 font-mono font-bold text-xl drop-shadow-md hover:scale-105 transition-all delay-100  ">
-        DOWNLOAD MY Résumé 
-      </button>
-    </div>
+    <ResumeButton />
     <!-- skills  -->
     <Skills />
     <!-- my projects -->
     <PorjectHero />
 
+    <!-- More about me -->
 
+    <div id="about" class="items-center flex justify-center my-20">
+      <div id="aboutheading"></div>
+      <div id="about-content">
+        <div id="about-image"></div>
+        <div id="about-para"></div>
+      </div>
+    </div>
 
+    <!-- contact and socials -->
     <Contacts />
-      </body>
+  </body>
 </html>

@@ -1,14 +1,15 @@
+---
+import { Image } from "astro:assets";
+---
+
 <div
   id="skills"
-  class="mt-20 w-full flex flex-col gap-4 justify-center items-center min-w-0 my-44"
+  class="w-full flex flex-col gap-4 justify-center items-center min-w-0 p-20 bg-sky-50"
 >
-  <div  class="text-6xl font-mono font-bold">
-  <h1>Skills</h1>
+  <div class="text-6xl font-mono font-bold">
+    <h1>Skills</h1>
   </div>
-  <div
-    id="web-skills"
-    class="flex flex-col  items-center border-4 border-gray-900 rounded-2xl p-12"
-  >
+  <div id="web-skills" class="flex flex-col items-center rounded-2xl p-12">
     <div
       id="skills-heading"
       class="text-gray-800 text-3xl font-mono font-bold mb-5"
@@ -18,42 +19,51 @@
     <div id="skill-logos">
       <ul class="grid grid-cols-3 gap-7">
         <li>
-          <img src="https://skillicons.dev/icons?i=html,css" alt="html,css" />
+          <Image
+            src="https://skillicons.dev/icons?i=html,css"
+            alt="html,css"
+            inferSize={true}
+          />
         </li>
         <li>
-          <img src="https://skillicons.dev/icons?i=js,ts" alt="js,ts" />
+          <Image
+            src="https://skillicons.dev/icons?i=js,ts"
+            alt="js,ts"
+            inferSize={true}
+          />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=react,tailwindcss"
             alt="React, TailwindCSS"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=astro,vue"
             alt="astro,vue"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=mysql,mongodb"
             alt="mysql,mongodb"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=supabase,firebase"
             alt="supabase,firebase"
+            inferSize={true}
           />
         </li>
       </ul>
     </div>
   </div>
-  <div
-    id="other-tech-skills"
-    class="flex flex-col items-center border-4 border-gray-900 rounded-3xl p-12"
-  >
+  <div id="other-tech-skills" class="flex flex-col items-center p-12">
     <div
       id="skills-heading"
       class="text-gray-800 text-4xl font-mono font-bold mb-5"
@@ -63,61 +73,69 @@
     <div id="skill-logos">
       <ul class="grid grid-cols-3 gap-7">
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=linux,neovim"
             alt="linux,neovim"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=git,github"
             alt="git,github"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=azure,aws"
-            alt="azure,aws" 
+            alt="azure,aws"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=java,python"
             alt="java,python"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=django,go"
             alt="django , go"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=nextjs,postman"
             alt="nest js , postman"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=docker,jenkins"
             alt="docjet,jenkins"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=blender,godot"
             alt="blender , godot"
+            inferSize={true}
           />
         </li>
         <li>
-          <img
+          <Image
             src="https://skillicons.dev/icons?i=notion,obsidian"
             alt="notion , obsidian"
+            inferSize={true}
           />
         </li>
       </ul>
     </div>
   </div>
 </div>
-

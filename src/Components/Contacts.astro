@@ -1,6 +1,11 @@
+---
+
+import { Image } from "astro:assets";
+---
+
 <div
   id="Contact"
-  class="flex flex-col justify-between p-0 list-none items-center w-full min-w-0 text-center gap-1 my-44"
+  class="flex flex-col justify-between p-0 list-none items-center w-full min-w-0 text-center gap-1 py-20 my-44 bg-sky-50"
 >
   <h1 class="text-5xl text-gray-800 font-mono font-bold">Contact/social</h1>
   <h2 class="text-3xl text-gray-800 font-mono mb-3">
@@ -13,54 +18,58 @@
       <li class="flex items-center justify-center mr-4">
         <!-- Center align both image and text -->
         <a href="https://github.com/BlueEnd07"
-          ><img
+          ><Image
             src="https://skillicons.dev/icons?i=github"
             alt="githubicon"
             class="mr-2"
+            inferSize={true}
           /></a
         >
       </li>
       <li class="flex items-center justify-center mr-4">
         <!-- Center align both image and text -->
         <a href="mailto:Lokeshrawatrawat123@gmail.com"
-          ><img
+          ><Image
             src="https://skillicons.dev/icons?i=gmail"
             alt="mailicon"
             class="mr-2"
+            inferSize={true}
           /></a
         >
       </li>
       <li class="flex items-center justify-center mr-4">
         <!-- Center align both image and text -->
         <a href="https://www.linkedin.com/in/lokesh-rawat-6229611bb/"
-          ><img
+          ><Image
             src="https://skillicons.dev/icons?i=linkedin"
             alt="linkedinicon"
             class="mr-2"
+            inferSize={true}
           /></a
         >
       </li>
       <li class="flex items-center justify-center mr-4">
         <!-- Center align both image and text -->
         <a href="https://www.instagram.com/thisislokesh/"
-          ><img
+          ><Image
             src="https://skillicons.dev/icons?i=instagram"
             alt="instagramicon"
             class="mr-2"
+            inferSize={true}
           /></a
         >
       </li>
       <li class="flex items-center justify-center">
         <!-- Center align both image and text -->
         <a href="https://twitter.com/meLokeshRawat"
-          ><img
+          ><Image
             src="https://skillicons.dev/icons?i=twitter"
             alt="twittericon"
             class="mr-2"
+            inferSize={true}
           /></a
         >
       </li>
     </ul>
   </div>
 </div>
-

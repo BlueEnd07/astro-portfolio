@@ -17,12 +17,6 @@ dependencies:
   '@fontsource-variable/dancing-script':
     specifier: ^5.0.17
     version: 5.0.17
-  '@fontsource/press-start-2p':
-    specifier: ^5.0.19
-    version: 5.0.19
-  '@fontsource/twinkle-star':
-    specifier: ^5.0.19
-    version: 5.0.19
   astro:
     specifier: ^4.5.8
     version: 4.5.8(typescript@5.4.3)
@@ -915,15 +909,7 @@ packages:
     resolution: {integrity: sha512-UftL2fg2bR9LN0sYd6fzTO54TDKSapqjYVt8a0dld0lkireWq/ZM76ZED3ekaCVLJNl4w4CjXowt0ptS11WTZg==}
     dev: false
 
-  /@fontsource/press-start-2p@5.0.19:
-    resolution: {integrity: sha512-U4+p6wj4vAmQf6Hcq0MFE2Qvoz5489dr6OZbQ7Mz4jmAmis2uVLNkR2gO2iSkXdgUDAzTM00eUyWklFCevQsNQ==}
-    dev: false
-
-  /@fontsource/twinkle-star@5.0.19:
-    resolution: {integrity: sha512-Ea0wV0BbXWS6tys8hcjViCOaSNh1ZDk0CbheMao+/VFHKZy1UB19LHHrCxksMgWxVIlu0N8+xGWj29rzBaAfhQ==}
-    dev: false
-
-  /@humanwhocodes/config-array@0.11.14:
+    /@humanwhocodes/config-array@0.11.14:
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
     dependencies:
